@@ -1,0 +1,170 @@
+body{
+	background-image: url(images/fon2.jpg);
+	background-repeat: repeat;
+}
+   
+   h2 {
+    font-size: calc(14px + 16 * ((100vw - 320px) / (1280 - 320))); /* Размер шрифта */
+    color: #800040; /* Цвет текста */
+    margin-top: 0; /* Отступ сверху */
+   }
+   
+   li{
+	   font-size:calc(10px + 16 * ((100vw - 320px) / (1280 - 320)));  
+	   white-space: nowrap;
+	   text-align: left;
+	   margin-left: 0;
+   }
+   
+   #container {
+    width: 80%; /* Ширина слоя */
+    margin: 0 auto; /* Выравнивание по центру */
+    background: #f0f0f0; /* Цвет фона левой колонки */
+   }
+   
+   #header {
+    font-size: calc(10px + 16 * ((100vw - 320px) / (1280 - 320))); /* Размер текста */
+    text-align: center; /* Выравнивание по центру */
+    padding: 5px; /* Отступы вокруг текста */
+    background: #8fa09b; /* Цвет фона шапки */
+    color: #ffe; /* Цвет текста */
+   }
+   
+   #sidebar {
+	font-size:calc(10px + 16 * ((100vw - 320px) / (1280 - 320)));
+    margin-top: 1%; 
+    width: 25%; /* Ширина слоя */
+    padding-left:1%; /* Отступы вокруг текста */
+    float: left; /* Обтекание по правому краю */
+   }
+   .sidebar_into{
+	color:#0001BF;
+   }
+   .sidebar_into:hover{
+	text-decoration:underline;
+	cursor:pointer;
+   }
+   
+   
+   #content {
+    margin-left: 25%; /* Отступ слева */
+	padding: 0%; /* Поля вокруг текста */
+    background: #fff; /* Цвет фона правой колонки */
+   }
+   
+   #ul_tag{
+	   padding-left: 7%;
+	   padding-bottom:7%;
+	   margin-bottom:0;
+   }
+   
+   #footer {
+	font-size:calc(8px + 16 * ((100vw - 320px) / (1280 - 320)));
+    background:#8FA09B; /* Цвет фона подвала */
+    color: #fff; /* Цвет текста */
+    padding: 5px; /* Отступы вокруг текста */
+    clear: left; /* Отменяем действие float */
+   }
+   
+   .for_site{
+	   
+	   max-width: 100%;
+   }
+    
+    #pavel_zhuk{
+		color: #E753DA;
+	}
+    #pavel_zhuk:hover{
+		cursor:pointer;
+		text-decoration:underline;
+	}	
+
+
+
+.menu_stixi_pro_lubov{
+	font-size:calc(9.5px + 16 * ((100vw - 320px) / (1280 - 320)));
+	margin-bottom: 10%;
+	margin-left: 12%;
+	color: #551A99FF;
+	white-space: normal;
+}
+
+.menu_stixi_pro_lubov:hover{
+	text-decoration:underline;
+	cursor: pointer;
+}
+
+
+
+
+.stixi{
+	visibility:hidden;
+	position:absolute;
+}
+
+
+
+
+
+
+
+
+#voyti:hover{
+	color: green;
+	cursor:pointer;
+}
+
+
+#admin_knopka{
+	font-size:100%;
+	text-align:center;
+	width:12%;
+	position:absolute;
+	top:3%;
+	left:71.5%;
+	z-index:1;
+	background-color:#ED4253FF;
+	color:black;
+	visibility:hidden;
+}
+
+#admin_knopka:hover{
+	cursor:pointer;
+	border: 2px solid black;
+}
+
+
+#nadpis_dobavit_stix{
+	visibility:hidden;
+    position:absolute;
+}
+
+
+#nazva_stixa{   
+  width: 40%;  /*Ширина блока*/
+  visibility:hidden;
+  position:absolute;
+}
+
+#text_stixa{
+	width: 60%;
+    height: 40%;
+	visibility:hidden;
+	position:absolute;
+}
+  
+#button_dobavit_stix{
+    font-size:150%;
+	width: 36%;
+	visibility: hidden;
+	position:absolute;
+}      
+   
+#button_dobavit_stix:hover{
+    cursor:pointer;
+	border:2px solid red;
+}      
+   
+textarea{
+	font-size:175%;
+}

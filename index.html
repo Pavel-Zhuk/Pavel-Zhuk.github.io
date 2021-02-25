@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon">
+     <meta charset="UTF-8"/>
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Добро пожаловать!</title>
+	 <link href="Glavniy.css" rel="stylesheet" type="text/css"/>
+	 <link href="preloader.css" rel="stylesheet" type="text/css"/>
+	 <script type="text/javascript" src="jquery-3.5.1.min.js" ></script>
+  </head>
+  <body>
+  <div id= "page-preloader" class = "preloader">
+      <div class = "loader"></div>
+    </div>
+  
+      <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+      <script src="night_mod.js"> </script>
+      <script src ="preloader.js"></script>
+	  <div onclick="command_admin_index()" id="admin_knopka" >Для Администраторов</div>
+      <div id="container">
+       <header id="header"> <img class = "for_site" src = "images/for_site.png"> </img> </header>
+        <nav id="sidebar">
+           <p><a onclick="location.href='Stixi_pro_lubov.html'" class="sidebar_into">Стихи про любовь</a></p>
+           <p><a onclick="location.href='Stixi_pro_raznoe.html'" class="sidebar_into">Разное</a></p>
+           <p><a onclick="location.href='#'" class="sidebar_into">...</a></p>
+        </nav>
+          <article id="content">
+            <h2>Начало</h2>
+             <ul id="ul_tag">
+               <li>Здравствуйте, дорогие гости! На этом сайте, вы можете выбрать тип и жанр стихов. Просто перейдите по какой-либо ссылке слева.
+			   </br> Узнать об авторе стихотворений вы можете нажав на ссылку ниже.
+			   </br> Приятного чтения и аппетита тем, кто кушает или пьёт чаёк! :)
+			   </li>
+             </ul> 
+          </article>
+         <footer id="footer">© Жук Павел, 2020 Автор стихов: <a onclick="location.href='Author.html'" id="pavel_zhuk" > Павел Жук, </a> создатель сайта: секретная личность.  <em>Только для администраторов</em> - <a id="voyti" onclick="voyti()" >Войти.</a></footer>
+       </div>
+      <script src ="script.js"></script>	   
+   </body>
+</html>   

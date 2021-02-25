@@ -1,0 +1,125 @@
+body{
+	background-image: url(images/fon2.jpg);
+}
+   
+   h2 {
+    font-size: calc(18px + 16 * ((100vw - 320px) / (1280 - 320))); /* Размер шрифта */
+    color: #800040; /* Цвет текста */
+    margin-top: 0; /* Отступ сверху */
+   }
+   
+   li{
+	   font-size:calc(10px + 16 * ((100vw - 320px) / (1280 - 320)));  
+   }
+   
+   #container {
+    width: 70%; /* Ширина слоя */
+    margin: 0 auto; /* Выравнивание по центру */
+    background: #f0f0f0; /* Цвет фона левой колонки */
+   }
+   #header {
+    font-size: calc(10px + 16 * ((100vw - 320px) / (1280 - 320))); /* Размер текста */
+    text-align: center; /* Выравнивание по центру */
+    padding: 5px; /* Отступы вокруг текста */
+    background: #8fa09b; /* Цвет фона шапки */
+    color: #ffe; /* Цвет текста */
+   }
+   #sidebar {
+	font-size:calc(14px + 16 * ((100vw - 320px) / (1280 - 320)));
+    margin-top: 10px; 
+    width: 9%; /* Ширина слоя */
+    padding: 0 10px; /* Отступы вокруг текста */
+    float: left; /* Обтекание по правому краю */
+   }
+   .sidebar_into{
+	color:#0001BF;
+   }
+   .sidebar_into:hover{
+	text-decoration:underline;
+	cursor:pointer;
+   }
+   
+   #content {
+    margin-left: 25%; /* Отступ слева */
+    padding: 10px; /* Поля вокруг текста */
+    background: #fff; /* Цвет фона правой колонки */
+   }
+   
+   #ul_tag{
+	   padding-left: 7%;
+	   padding-bottom:7%;
+	   margin-bottom:0;
+   }
+   
+   #footer {
+	font-size:calc(8px + 16 * ((100vw - 320px) / (1280 - 320)));
+    background:#8FA09B; /* Цвет фона подвала */
+    color: #fff; /* Цвет текста */
+    padding: 5px; /* Отступы вокруг текста */
+    clear: left; /* Отменяем действие float */
+   }
+   
+.flexible-image {
+	
+	max-width: 100%;
+	
+}
+  
+  .for_site{
+	   
+	   max-width: 100%;
+	   
+   }
+   
+    #pavel_zhuk{
+		color: #E753DA;
+	}
+    #pavel_zhuk:hover{
+		cursor:pointer;
+		text-decoration:underline;
+	}	
+   
+   
+   
+#youtube{
+    max-width: 30%;
+}
+
+#youtube:hover{
+	cursor:pointer;
+}
+
+
+
+
+
+   
+   
+   
+   
+   
+   
+#voyti:hover{
+	color: green;
+	cursor:pointer;
+}
+
+
+#admin_knopka{
+	font-size:100%;
+	text-align:center;
+	width:12%;
+	position:absolute;
+	top:3%;
+	left:71.5%;
+	background-color:#ED4253FF;
+	color:black;
+	z-index: 1;
+	visibility:hidden;
+}
+
+#admin_knopka:hover{
+	cursor:pointer;
+	border: 2px solid black;
+}
+   
