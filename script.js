@@ -17,6 +17,16 @@ let br_1_array                   = new Array();
 let stixi = new Array(); 
 let index_of_stix; 
 
+let data = new Date();
+let year = data.getFullYear();
+
+document.getElementById('data_year').textContent = year;
+
+
+
+
+
+
 
 
 
