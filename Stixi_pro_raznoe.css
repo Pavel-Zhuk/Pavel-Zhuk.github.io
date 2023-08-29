@@ -1,5 +1,5 @@
 body{
-	background-image: url(images/fon2.jpg);
+	background-image: url(images/fon2.webp);
 	background-repeat: repeat;
 }
    
@@ -109,6 +109,9 @@ body{
 
 
 
+#admin-access{
+	float:right;
+} 
 
 
 #voyti:hover{

@@ -1,5 +1,5 @@
 body{
-	background-image: url(images/fon2.jpg);
+	background-image: url(images/fon2.webp);
 }
    
    h2 {
@@ -93,10 +93,9 @@ body{
 
 
 
-   
-   
-   
-   
+#admin-access{
+	float:right;
+}           
    
    
 #voyti:hover{
